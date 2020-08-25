@@ -1,0 +1,150 @@
+
+
+.AboutUsContainer {
+    padding: 64px;
+    background-color: #cfcfcf;
+    width: auto;
+  }
+
+.AboutUsContainer2 {
+  position: relative;
+  }
+  
+  .large-font2 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+  }
+  
+  .xlarge-font2 {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+  }
+
+  
+  .AboutUsContainerImage {
+    position: relative;
+    width: 90%;
+  }
+
+  .AboutUsContainerImage:hover .AboutUsImage {
+    opacity: 0.3;
+  }
+
+  .AboutUsContainerImage:hover .Middle {
+    opacity: 1;
+  }
+
+  .AboutUsSection1 {
+    position: absolute;
+    width: 80%;
+    top: 12.5%;
+    left: 13%;
+  }
+
+ 
+
+  .AboutUsColumn1 {
+    float: left;
+    width: 33%;
+  }
+
+  .AboutUsSection1 .AboutUsImage {
+    width: 80%;
+    height: auto;
+    border: 3px solid #f1f1f1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+  }
+
+  .AboutUsSection2 {
+    position: absolute;
+    width: 100%;
+    top:42%;
+    left:3%; 
+  }
+
+  .AboutUsColumn2 {
+    float: left;
+    width: 25%;
+  }
+
+  .AboutUsSection2 .AboutUsImage {
+    width: 80%;
+    height: auto;
+    border: 3px solid #f1f1f1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+  }
+
+  .AboutUsSection3 {
+    position: absolute;
+    width: 100%;
+    top:70%;
+    left:3%;
+  }
+
+  .AboutUsColumn3 {
+    float: left;
+    width: 25%;
+  }
+
+  .AboutUsSection3 .AboutUsImage {
+    width: 80%;
+    border: 3px solid #f1f1f1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+  }
+
+
+
+
+  .Middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .AboutUsText {
+    background-color: #cfcfcf;
+    color: #000000;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .MeetingRoomImage {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  
+  @media screen and (max-width: 1000px) {
+      .AboutUsSection1,
+      .AboutUsSection2,
+      .AboutUsSection3 {
+      width: 100%;
+      display: block;
+    } 
+  }

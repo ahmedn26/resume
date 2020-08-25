@@ -1,0 +1,97 @@
+/* Individual item */
+.bm-item {
+    /* Our sidebar item styling */
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    transition: color 0.2s;
+  }
+  
+  /* Change color on hover */
+  .bm-item:hover {
+    color: #a3a3a3;
+  }
+  
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 22px;
+    height: 12px;
+    padding-bottom: 5px;
+    left: 35px;
+    top: 55px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #000000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #000000;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: white;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .socialIcons {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    
+  }
+
+  .socialIcons a {
+    padding-right: 5px;
+  }
+
+  .HeaderMenuList {
+    position: absolute;
+    left: 30%;
+    top: 3%;
+  }
+
+  .HeaderMenuText {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 30px;
+    color: white;
+    
+  }
+  .HeaderMenuText:hover {
+    opacity: 30%;
+  }
+
+
+  .headerImage {
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+  }
+
+  
+
+  

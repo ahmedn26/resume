@@ -1,0 +1,13 @@
+.Footer {
+  background-color: #cfcfcf;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+  .footerSocialIcons {
+    
+  }
+
+  .footerSocialIcons a {
+    padding-right: 5px;
+  }

@@ -1,0 +1,86 @@
+.container3 {
+  position: relative;
+    padding: 50px;
+    height: 100%;
+    width: auto;
+  }
+  
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;	
+  }
+  
+  .column3-66 {
+    float: left;
+    width: 57%;
+    padding: 10px;
+    
+  }
+  
+  .column3-33 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .large-font3 {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .xlarge-font3 {
+    font-size: 64px;
+    text-align: center;
+  }
+  
+  .BookButton {
+    border: none;
+    color: white;
+    padding: 21px 35px;
+    margin-top: 5%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #52de77;
+    border-radius: 12px;
+}
+
+.BookButton:hover {
+  opacity: 0.75;
+}
+
+
+
+  #FreeBookVideo {
+    position: relative;
+    margin-top: 2%;
+    left: 2%;
+	padding: 1.5%;
+  }
+
+  #FreeBookText {
+    text-indent: 50px;
+    font-size: 25px;
+    background-color: #cfcfcf;
+    padding: 1.5%;
+  }
+  
+  .FreeBookImage {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: 20%;
+	  width: 20%;
+	  
+  }
+
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    } 
+  }
